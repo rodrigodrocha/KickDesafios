@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(243, 243, 243);
+}
+table{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    margin: auto;
+}
+.header{
+    background-color: green;
+    color: white;
+}
+table td{
+    border: 1px solid black;
+}
