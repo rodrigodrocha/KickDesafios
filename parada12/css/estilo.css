@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(185, 204, 204);
+}
+table{
+    width: 1100px;
+    margin: auto;
+}
+
+/*Header*/
+#box_header{
+    background-color: green;
+    height: 80px;
+
+}
+#box_header ul{
+    display: flex;
+    list-style: none;
+    margin-left: 0px;
+}
+#box_header img{
+    width: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#box_header h2{
+    margin-left: 20px;
+    color: #F5A200;
+}
+#box_header li{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#link_main{
+    margin-left: 200px;
+}
+.link_header {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.link_header a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/*Nav #B1CBAA*/
+#box_nav{
+    background-color: #B1CBAA;
+}
+#box_nav ul{
+    display: flex;
+    list-style: none;
+    height: 20px;
+}
+#box_nav li{
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.main{
+    margin-left: 45px;
+}
+#box_nav a, #box_nav p{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+ 
+/* Article - Criando meu slider */
+#box_article{
+    background-color: antiquewhite;
+    height: 450px;
+    padding: 0px;
+}
+.slider{
+    display: block;
+    height: 293px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 0px;
+    position: relative;
+    padding-bottom: 110px;
+    padding-right: 50px;
+}
+.slider li{
+    list-style: none;
+    position: absolute;
+}
+.slider img{
+    margin: auto;
+    padding: 0px;
+    margin: 0px;
+    height: 400px;
+    width: 1000px;
+    vertical-align: top;
+    opacity: 0;
+}
+.slider input{
+    display: none;
+}
+.slider label {
+    background-color: #ffffff;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+/* Footer */
+#footer_box{
+    width: 1100px;
+    height: 200px;
+    background-color: #B1CBAA;
+}
+#footer_box ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+#logo{
+    width: 60px;
+    margin: 30px;
+    
+}
+#footer_box p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#credit{
+    margin-left: 90px;
+    padding-top: 135px;
+}
+#footer_box img{
+    margin-top: 30px;
+    width: 60px;
+    margin-left: 15px;
+}
+#texto{
+    flex-direction: column;
+}
