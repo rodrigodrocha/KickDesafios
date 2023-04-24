@@ -1,0 +1,158 @@
+@media screen and (max-width: 1520px) {
+   /* Header */
+    #header {
+        background-color : #ffd9d9;
+        height: 70px;
+        display: flex;
+    }
+    #header img{
+        margin-top: 10%;
+        height: 80%;
+        margin-left: 20px;
+        
+    }
+    #header h1{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 0;
+        font-family: Josefin Sans ;
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    #search_box{ 
+        display: flex;
+        background-color:#ffffff;
+        border:solid 2px black;
+        border-radius:20px;
+        height: 50px;
+        margin-top: auto;
+        margin-bottom: auto;
+        align-items: center;
+        width: 300px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #login{
+        display: flex;
+        padding: 0;
+        margin-right: 100px;
+        margin-top: -7px;
+    }
+    #login p{
+        width: 125px;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left: 15px;
+        font-size: 15px;
+        
+    }
+    #login img{
+        margin-top: auto;
+    }
+    /*Nav*/
+    #nav{
+        background-color: #DAB4E8;
+        height: 50px;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    
+    }
+    #nav ul li{
+        list-style: none;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    /*Produtos*/
+    .produtos .vitrine{
+        width: 300px;
+        height: 300px;
+        background-color: #ffd9d9;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+    .produtos .vitrine p{
+        margin-left: 100px;
+        margin-top: -70px;
+        font-size: 30px;
+    }
+    .produtos .vitrine img{
+        margin-top: 1px;
+        width: 300px;
+        justify-items: center;
+    }
+}
+@media screen and (max-width: 1520px) {
+    /*Animação*/
+    .galery{
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: 500px;
+        overflow: hidden;
+    }
+    .carousel{
+        width: 502%;
+        animation-name: animacao;
+        animation-duration: 18s;
+        animation-iteration-count: infinite;
+    }
+    .galery .carousel img {
+        width: 19.9%;
+        height: 700px;
+    }
+    @keyframes animacao{
+        0% { margin-left: 0;}
+        20% { margin-left: 0;}
+        25% { margin-left: -100%;}
+        45% { margin-left: -100%;}
+        50% { margin-left: -200%;}
+        70% { margin-left: -200%;}
+        75% { margin-left: -300%;}
+        95% { margin-left: -300%;}
+        100% { margin-left: -400%;}
+    }
+    /*header*/
+    #header {
+        background-color : #ffd9d9;
+        height: 50px;
+        display: flex;
+    }
+    #header img{
+        margin-top: 10%;
+        height: 80%;
+        margin-left: 20px;
+        
+    }
+    #header h1{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 0;
+        font-family: Josefin Sans ;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    #search_box{ 
+        display: flex;
+        background-color:#ffffff;
+        border:solid 2px black;
+        border-radius:20px;
+        height: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        align-items: center;
+        width: 250px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #search_text{
+        font-size:15px;
+    }
+    #search_box img{
+        height: 20px;
+    }
+}
