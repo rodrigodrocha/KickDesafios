@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/background.png);
+    background-size: 100%;
+}
+/*Header*/
+
+#header {
+    position: relative;
+    background-color : #ffd9d9;
+    height: 45px;
+    display: flex;
+}
+#header img{
+    height: 90%;
+    margin-left: 10px;
+}
+#header h1{
+    align-items: center;
+    padding: 0;
+    font-family: Josefin Sans ;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#search_box{ 
+    display: flex;
+    position: relative;
+    background-color:#ffffff;
+    border:solid 2px black;
+    border-radius:20px;
+    height: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+#search_text{
+    float:left;
+    background-color:none;
+    padding-left:15px;
+    font-style:italic;
+    font-size:14px;
+    border:none;
+    border-radius: 15px;
+    outline: none;
+    width: 200%;
+    position: relative;
+    height: 80%;
+}
+#search_box img{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 60%;
+    justify-content: flex-end;
+    position: relative;
+}
+#login{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin-right: 50px;
+}
+#login img{
+    align-items: center;
+    height: 50%;
+
+}
+#login a{
+    text-decoration: none;
+    color: black;
+}
+#login p{
+    width: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+/* NAV */
+#nav{
+    background-color: #DAB4E8;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+#nav ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+#nav ul a{
+    text-decoration: none;
+    justify-items: center;
+
+}
+#nav ul li{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    margin-top: 7px;
+    margin-bottom: auto;
+}
